@@ -1,0 +1,63 @@
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 130%;
+  color: white;
+  display:flex;
+  min-height:90vh;
+}
+
+#container{
+  width: 60%;
+  margin: auto;
+  padding: 50px;
+  background-color: #00000088; /* le ultime due cifre indicano l'opacità */
+  border-radius: 5%;
+}
+
+header > img{
+  width: 20%;
+}
+
+.wrapped{
+   text-align: center;
+   color: #00FF00;
+}
+
+.button-section{
+   background-color: #00FF00; 
+   padding: 3px;
+}
+
+#Color-line-orange{
+  width: 30%;
+  text-align: left;
+  background:rgb(255,188,22);
+  border-radius: 5%;
+  color: rgb(255,188,22);
+}
+
+.stato-batteria{
+  font-size: 12px
+}
+#Color-line-green{
+  width: 60%;
+  text-align: left;
+  background:rgb(61,203,15);
+  border-radius: 5%;
+  color: rgb(61,203,15);
+
+}
+
+#Color-line-red{
+  width: 20%;
+  text-align: left;
+  background:rgb(140,9,9);
+  border-radius: 5%;
+  color: rgb(140,9,9);
+}
+
+.scooter-record{
+  padding: 10px;
+}
